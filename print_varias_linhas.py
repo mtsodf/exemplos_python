@@ -8,13 +8,14 @@ print("Olhando para baixo, viu sua própria imagem refletida na água.")
 print("Pensando ver outro cão, cobiçou-lhe logo o osso e pôs-se a latir.")
 print("Mal, porém, abriu a boca, seu próprio osso caiu na água e se perdeu para sempre.")
 
-# Utilizando apenas o \n e apenas um print
+# Utilizando o \n e apenas um print:
+# Lembrar que o \n é um caractere especial que representa quebra de linha
 print("\nMétodo 2")
 print(
     "Um dia, um cão ia atravessando uma ponte, carregando um osso na boca.\nOlhando para baixo, viu sua própria imagem refletida na água.\nPensando ver outro cão, cobiçou-lhe logo o osso e pôs-se a latir.\nMal, porém, abriu a boca, seu próprio osso caiu na água e se perdeu para sempre."
 )
 
-# Utilizando  """ para definir uma instrução em várias
+# Utilizando  """ para definir uma string em várias linhas
 print("\nMétodo 3")
 print(
     """Um dia, um cão ia atravessando uma ponte, carregando um osso na boca.
