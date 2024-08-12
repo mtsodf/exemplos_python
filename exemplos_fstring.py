@@ -24,3 +24,10 @@ print(f"{'esquerda':<20s} {'direita':>20s} {'centro':^20s}")
 
 # Você pode escrever um inteiro com zeros à esquerda
 print(f"O número 42 com zeros à esquerda é {42:05d}.")
+
+
+# Você pode criar uma tabela alinhada
+print(f"{'Nome':<15} {'Idade':<10s} {'Cidade':<20}")
+print(f"{'Mateus':<15} {25:<10d} {'São Paulo':<20}")
+print(f"{'Érika':<15s} {35:<10d} {'Sobral':<20}")
+print(f"{'Matias':<15s} {30:<10d} {'Fortaleza':<20}")
