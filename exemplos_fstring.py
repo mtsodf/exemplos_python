@@ -17,10 +17,13 @@ print(f"Meu nome tem {len(nome)} letras.")
 # Você pode formatar um número float com um número específico de casas decimais
 import math
 
+print(f"O valor de pi é {math.pi}.")
 print(f"O valor de pi é {math.pi:.2f}.")
 
 # Você pode alinhar o texto
-print(f"{'esquerda':<20s} {'direita':>20s} {'centro':^20s}")
+print(f"{'esquerda':<20s}.")
+print(f"{'direita':>20s}.")
+print(f"{'centro':^20s}.")
 
 # Você pode escrever um inteiro com zeros à esquerda
 print(f"O número 42 com zeros à esquerda é {42:05d}.")
