@@ -18,19 +18,24 @@ def read_csv(caminho):
     return header, dados_separados[1:]
 
 
-header, dados_separados = read_csv("imdb_data.csv")
+def main():
+    header, dados_separados = read_csv("imdb_data.csv")
 
-coluna_titulo = header.index("title")
-coluna_rating = header.index("averageRating")
+    coluna_titulo = header.index("title")
+    coluna_rating = header.index("averageRating")
 
-header_titulo = "Título"
-header_nota = "Nota"
+    header_titulo = "Título"
+    header_nota = "Nota"
 
-print("-" * 35)
-print(f"{header_titulo:30s}{header_nota:5s}")
-print("-" * 35)
+    print("-" * 35)
+    print(f"{header_titulo:30s}{header_nota:5s}")
+    print("-" * 35)
 
-for dados_linha in dados_separados[:5]:
-    titulo = dados_linha[coluna_titulo]
-    nota = dados_linha[coluna_rating]
-    print(f"{titulo:30s}{nota:5s}")
+    for dados_linha in dados_separados[:5]:
+        titulo = dados_linha[coluna_titulo]
+        nota = dados_linha[coluna_rating]
+        print(f"{titulo:30s}{nota:5s}")
+
+
+if __name__ == "__main__":
+    main()
