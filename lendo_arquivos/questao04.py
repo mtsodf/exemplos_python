@@ -25,8 +25,10 @@ for dado in dados:
         filmes_selecionados.append((nota, ano, titulo))
 
 
+# Ordena a lista da menor nota pra maior nota
 filmes_selecionados.sort()
 
+# Inverte a lista filmes_selecionados
 filmes_selecionados = filmes_selecionados[::-1]
 
 for filme in filmes_selecionados[:10]:
