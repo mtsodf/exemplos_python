@@ -9,8 +9,6 @@ def media_lista(lista):
 
 cabecalho, dados = questao01.read_csv("imdb_data.csv")
 
-print(cabecalho)
-
 col_nome = cabecalho.index("title")
 col_tipo = cabecalho.index("type")
 col_nota = cabecalho.index("averageRating")
